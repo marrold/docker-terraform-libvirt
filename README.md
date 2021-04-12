@@ -5,7 +5,7 @@ A container built with [the official terraform image](https://hub.docker.com/r/h
 Terraform is pinned to version 0.14.10 and the provider is pinned to 0.6.3
 
 ## Usage
-`docker build -t docker-terraform-libvirt`. 
+`docker build -t docker-terraform-libvirt`  
 `docker run -it -v $PWD:/opt -w /opt docker-terraform-libvirt init $path_to_tf_files`
 
 ## License
